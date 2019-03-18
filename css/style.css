@@ -1,0 +1,281 @@
+/* <style>
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+</style> */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(53, 100, 53, 0.5);
+    
+   
+}
+
+.button {
+    background: none;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    margin: 1rem;
+
+}
+.firstHeader {
+    color: white;
+    border-radius: 5rem;
+    height: 90vh;
+    width: 100vw;
+}
+/* navigation stuff */
+nav {
+    border: thin 0.25vw;
+    width: 99vw;
+    height: 5vh;
+    position: 0 ;
+    border-radius: 2rem;
+    
+    }
+.navList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* End navigation stuff */
+/* footer stuff */
+footer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%%;
+    grid-template-rows: 1fr;
+    color: white;
+}
+.footerContact{
+    display:grid;
+    grid-column: 1;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100%; 
+}
+
+.footerConHead {
+    display: grid;
+    grid-row: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.contactList {
+    display: grid;
+    grid-row: 2;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.signupFooter {
+    display: grid;
+    grid-column: 2;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.mcHeader {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mcContent {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between center;
+    flex-wrap: wrap;
+}
+.footerBuy{
+display: grid;
+grid-column: 3;
+grid-row: 1;
+display: flex;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+}
+/* end footer stuff */
+/* Home Page start */
+.frontSlide {
+    /* background: url("../images/pic1.jpg") center; */
+    color: white;
+    border-radius: 5rem;
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 66% 33%;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.buyButton {
+    background: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.frontBuy {
+display: grid;
+grid-column: 2;
+grid-row: 1;
+display: flex;
+align-items: flex-end;
+text-align: center;
+}
+.frontSignup {
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+}
+/* End home page */
+/* About page */
+.aboutHeader {
+    background: url("../images/pic1.jpg") center;
+    color: white;
+    border-radius: 5rem;
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    /* grid-template-columns: 66% 33%;
+    grid-template-rows: 1fr 1fr 1fr; */
+}
+/* end About Page */
+/* The Works */
+.theWorksHeader {
+    background: url("../images/pic6.jpg") center;
+    color: white;
+    border-radius: 5rem;
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    /* grid-template-columns: 66% 33%;
+    grid-template-rows: 1fr 1fr 1fr; */
+}
+/* End The Works */
+/* Product Page */
+.productHeader {
+    background: url("../images/pic3.jpg") center;
+    color: white;
+    border-radius: 5rem;
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    /* grid-template-columns: 66% 33%;
+    grid-template-rows: 1fr 1fr 1fr; */
+}
+.videoReq {
+    display: flex;
+    justify-content: center;
+}
+iframe {
+    width: 50vw;
+    height: 50vh;
+}
+/* EndProduct Page */
+
+/* Benefits page*/
+.benefitsHeader {
+    background: url("../images/pic5.jpg") center;
+    color: white;
+    border-radius: 5rem;
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    /* grid-template-columns: 66% 33%;
+    grid-template-rows: 1fr 1fr 1fr; */
+}
+/* End Benefits page*/
+/* contact Page */
+.contactHeader {
+    background: url("../images/pic7.jpg") center;
+    color: white;
+    border-radius: 5rem;
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    /* grid-template-columns: 66% 33%;
+    grid-template-rows: 1fr 1fr 1fr; */
+}
+/* End contact Page */
+/* GettingStarted*/
+.getStartedHeader {
+    background: url("../images/pic10.jpg") center;
+    color: white;
+    border-radius: 5rem;
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    /* grid-template-columns: 66% 33%;
+    grid-template-rows: 1fr 1fr 1fr; */
+}
+/* GettingStarted footer stuff */
+
+.buyHere {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    color: white;
+}
+.footerContact1{
+    display:grid;
+    grid-column: 1;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100%; 
+}
+
+.footerConHead1 {
+    display: grid;
+    grid-row: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.contactList1 {
+    display: grid;
+    grid-row: 2;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.signupFooter1 {
+    display: grid;
+    grid-column: 2;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.mcHeader1 {
+
+    display: flex;
+
+    justify-content: center;
+}
+.mcContent1 {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* end GettingStarted footer stuff */
+/* get started page */
+.hldPkgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
