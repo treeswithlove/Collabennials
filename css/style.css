@@ -298,7 +298,10 @@ font-size: 30px;
     background-color: rgba(53, 100, 53, 0.5);
     text-align: center;
 }
-
+.productPara {
+    color: white;
+    font-size: 1.5rem;
+}
 /* End The Works */
 /* Product Page */
 .productHeader {
