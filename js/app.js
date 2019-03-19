@@ -3,7 +3,7 @@
 var counter = 0;
 var plusDivs = (x) => {
     var imgPics = ["../images/pic20.jpg",  "../images/pic22.jpg", "../images/pic23.jpg", "../images/pic24.jpg", "../images/pic25.jpg", "../images/pic26.jpg","../images/pic21.jpg","../images/pic28.jpg","../images/pic29.jpg"];
-    var imgText =[ "enter cool stat here",]
+    var imgText =[ "cool stat here","cool stat here","cool stat here","cool stat here","cool stat here","cool stat here","cool stat here","cool stat here","cool stat here",]
     var size = imgPics.length - 1;
     counter = counter + x;
     while(counter > size){
@@ -24,4 +24,10 @@ $(document).ready(() => {
       $("#hldPkgs").animate({left: '10px'});
       $("#packages").css('display', 'none');
     });
+ 
+  $(".frontSlide").hover(() =>
+  $("#mango").animate({top: '42rem'}, 5000),
+  $("#orange").animate({top: '42rem'}, 5000),
+      )
+
   });

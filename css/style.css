@@ -118,7 +118,10 @@ flex-wrap: wrap;
 /* end footer stuff */
 /* Home Page start */
 .frontSlide {
-    /* background: url("../images/pic1.jpg") center; */
+    background: url("../images/fruit-Tree.png") rgba(53, 100, 53, 0.6) left;
+    /* background image http://www.revitalisedays.co.uk/wp-content/uploads/Fruit-Tree.png */
+    background-size: 70rem;
+    background-repeat: no-repeat;
     color: white;
     border-radius: 5rem;
     height: 90vh;
@@ -127,26 +130,66 @@ flex-wrap: wrap;
     grid-template-columns: 66% 33%;
     grid-template-rows: 1fr 1fr 1fr;
 }
+.indexHeader {
+    display:grid;
+    grid-column: 2;
+    grid-row: 1;
+    font-family: farmer;
+    font-size: 120px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-decoration:;
+}
+#mango{
+    background: url("../images/mango.png") center;
+    /* img src https://banner2.kisspng.com/20171127/f8d/mango-transparent-png-clip-art-5a1c0cb59b4d98.4704792215117877016361.jpg */
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    height:5rem;
+    width:5rem;
+    border-radius: 100%;
+    position: relative;
+    left: 29rem;
+    top: 19rem;
+}
+#orange{
+    background: url("../images/orange.png") center;
+    /* img src https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjS67-Kn47hAhVPn-AKHSQaAn4QjRx6BAgBEAU&url=https%3A%2F%2Fimgur.com%2Fgallery%2F3bgXu&psig=AOvVaw1NNpy8WQOQsZz-bkuycqtl&ust=1553078834807333 */
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    height:5rem;
+    width:5rem;
+    border-radius: 100%;
+    position: relative;
+    left: 32rem;
+    top: 19rem;
+}
 .buyButton {
     background: none;
     border-radius: 1rem;
-    margin: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin: 0.5rem;
+    padding: 0.5em 5em 0.5em 5em;
     font-family: sunshine;
+    font-size: 1rem;
 }
 .frontBuy {
 display: grid;
 grid-column: 2;
-grid-row: 1;
+grid-row: 2;
 display: flex;
 align-items: flex-end;
-text-align: center;
+text-align: left;
+font-family: farmer;
+font-size: 30px;
 }
 .frontSignup {
     display: grid;
     grid-column: 2;
     grid-row: 3;
+    font-size: 1.5rem;
 }
 /* End home page */
 /* About page */
@@ -230,7 +273,6 @@ text-align: center;
     color: rgba(29, 54, 29, 1);
     font-size: 25px;
      
-
 }
 .missionDefined {
     display: grid;
@@ -252,6 +294,32 @@ text-align: center;
     display: grid;
     /* grid-template-columns: 66% 33%;
     grid-template-rows: 1fr 1fr 1fr; */
+}
+.theWorksContent {
+    border-radius: 3rem;
+    background-color: rgba(53, 100, 53, 0.5);
+    text-align: center;
+}
+.mapParent {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 1fr;
+}
+.map {
+display: grid;
+grid-column: 1
+}
+.contactInfo {
+    margin: 3rem;
+    font-family: sunshine;
+    color: white;
+    font-size: 2rem;
+    display: grid;
+    grid-column: 2;
+    grid-row:1;
+}
+.hours {
+    list-style: none;
 }
 /* End The Works */
 /* Product Page */
@@ -287,6 +355,17 @@ iframe {
     grid-column: 3;
     grid-row: 1;
 }
+.modalPic {
+    background: url(../images/modalPic.png);
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 40vh;
+}
+.close {
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 .moveModalB {
     display: grid;
     grid-column: 2;
@@ -309,6 +388,8 @@ iframe {
     border: 1px solid;
     padding: 20px;
     border-radius: 1rem;
+    display: flex;
+    justify-content: center;
 }
 .modal:before {
     content: "";
