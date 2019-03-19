@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
     <script src="../js/app.js" defer></script>
     <title>Getting+Started</title>
 </head>
@@ -23,11 +25,18 @@
         </ul>
     </nav>
     <div class="firstHeader getStartedHeader">
-        <h1>How to Get Started</h1>
-        <h4>I'm in!</h4>
-
+        <h1 class="pageHeader1">How to Get Started</h1>
     </div>
-    <div class="hldPkgs">
+    <!-- buy button -->
+   
+    <h7 class="BuyHeader">Become a Member and Join the Collaboration!
+            <button class="buyButton"><a target="_blank" href="https://www.paypal.com/us/home">Here</a></button>
+        </h7>
+    <div>
+    <h4 class="imIn">I'm in!</h4>
+    <button id="packages">See Our Package Options</button>
+    </div>
+    <div id="hldPkgs">
         <div class="pkgs pkg1">
             <h3 class="pkgsH">Package 1</h3>
             <p class="pkgsContent">least work</p>
@@ -42,7 +51,12 @@
         </div>
     </div>
     <!-- next page direction goes here -->
-    <div class="nextPagePls"></div>
+    <nav>
+        <ul class="navList">
+            <li><a href="./benefits.html">
+                    <--Previous Page</a> </li> <li><a href="./contact.html">Next Page --></a></li>
+        </ul>
+    </nav>
     <!-- next page ends here -->
     <!-- footer begins here -->
     <footer class="buyHere">
@@ -85,12 +99,6 @@
         </div>
 
         <!--End mc_embed_signup-->
-        <div class="footerBuy">
-            <h7>Become a Member and Join the Collaboration!
-                <button class="buyButton"><a href="../pages/getstarted.html">Here</a></button>
-            </h7>
-
-        </div>
     </footer>
 </body>
 
