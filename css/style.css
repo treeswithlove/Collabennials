@@ -19,6 +19,7 @@ body, html {
     border-radius: 5px;
     display: flex;
     margin: 1rem;
+    font-family: sunshine;
 
 }
 .firstHeader {
@@ -132,6 +133,7 @@ flex-wrap: wrap;
     margin: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    font-family: sunshine;
 }
 .frontBuy {
 display: grid;
@@ -428,6 +430,9 @@ iframe {
     border: none;
     color: white;
     outline-style: none;
+    font-family: sunshine;
+    font-size: 4rem;
+    opacity: 0.7;
 }
 .backward {
     display: grid;
@@ -438,10 +443,42 @@ iframe {
     border: none;
     color: white;
     outline-style: none;
+    font-family: sunshine;
+    font-size: 4rem;
+    opacity: 0.7;
 }
 /* End Benefits page*/
 
 /* GettingStarted*/
+.seePkgs{
+    display: grid;
+    grid-template-columns: 66% 33%;
+    grid-template-rows: 1fr ;
+}
+.buyHeader {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: sunshine;
+    font-size: 50px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.buyButtonG {
+    background-color: rgba(53, 100, 53, 0.5);
+    color: white;
+    border: none;
+    border-radius: 1rem;;
+    display: flex;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-family: sunshine;
+    font-size: 20px;
+}
 .imIn {
     display: flex;
     justify-content: center;
@@ -450,7 +487,11 @@ iframe {
     color: white;
     padding: 0;
     margin: 0;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
 }
+
 #packages {
     display: flex;
     font-family: sunshine;
@@ -460,6 +501,9 @@ iframe {
     background: rgba(53, 100, 53, 0.5);
     padding: 2rem;
     border-radius: 1rem;
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
 }
 .getStartedHeader {
     background: url("../images/pic10.jpg") center;
