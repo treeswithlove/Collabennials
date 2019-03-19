@@ -1,3 +1,4 @@
+/* font families */
 @font-face{
     font-family: farmer;
     src: url(../fonts/ForefarmersDEMO.ttf);
@@ -6,6 +7,7 @@
     font-family: sunshine;
     src: url(../fonts/Alittlesunshine.ttf);
 }
+/* applies to all body */
 body, html {
     margin: 0;
     padding: 0;
@@ -42,14 +44,11 @@ nav {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: space-around;
-    
-    
+    justify-content: space-around; 
 }
 a {
     text-decoration: none;
     color: white;
-   
 }
 /* End navigation stuff */
 /* footer stuff */
@@ -93,7 +92,6 @@ footer {
     padding: 1rem;
 }
 .mcHeader {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -300,27 +298,7 @@ font-size: 30px;
     background-color: rgba(53, 100, 53, 0.5);
     text-align: center;
 }
-.mapParent {
-    display: grid;
-    grid-template-columns: 65% 35%;
-    grid-template-rows: 1fr;
-}
-.map {
-display: grid;
-grid-column: 1
-}
-.contactInfo {
-    margin: 3rem;
-    font-family: sunshine;
-    color: white;
-    font-size: 2rem;
-    display: grid;
-    grid-column: 2;
-    grid-row:1;
-}
-.hours {
-    list-style: none;
-}
+
 /* End The Works */
 /* Product Page */
 .productHeader {
@@ -700,5 +678,29 @@ iframe {
     display: grid;
     /* grid-template-columns: 66% 33%;
     grid-template-rows: 1fr 1fr 1fr; */
+}
+.mapParent {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 1fr;
+}
+.map {
+display: grid;
+grid-column: 1
+}
+.contactInfo {
+    margin: 3rem;
+    font-family: sunshine;
+    color: white;
+    font-size: 2rem;
+    display: grid;
+    grid-column: 2;
+    grid-row:1;
+}
+.hours {
+    list-style: none;
+}
+.s2Header {
+    font-size: 3rem;
 }
 /* End contact Page */
