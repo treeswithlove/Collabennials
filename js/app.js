@@ -22,7 +22,7 @@ $(document).ready(() => {
     // for slide on getting started page
     $("#packages").click(function () {
         $("#hldPkgs").css('display', 'grid');
-        $("#hldPkgs").animate({ left: '10px' });
+        $("#hldPkgs").animate({ left: '10px' }, 1000);
         $("#packages").css('display', 'none');
     });
 //for animaiton animates fruits
